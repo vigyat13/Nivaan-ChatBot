@@ -2,9 +2,9 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import os
 
-# Set environment variables (you can also load from a .env file)
-SPOTIPY_CLIENT_ID = '221927c96c6a4bb0812d3ccfe0aa0e5d'
-SPOTIPY_CLIENT_SECRET = '656f88f4af114273860c36759f70063e'
+
+SPOTIPY_CLIENT_ID = 'SPOTIPY_CLIENT_ID'
+SPOTIPY_CLIENT_SECRET = 'SPOTIPY_CLIENT_SECRET'
 SPOTIPY_REDIRECT_URI = 'http://localhost:8888/callback'  # use with ngrok if needed
 
 scope = 'user-read-playback-state user-modify-playback-state user-read-currently-playing'
