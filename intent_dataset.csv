@@ -1,0 +1,43 @@
+text,intent
+hello,greet
+hi there Nivaan,greet
+hey,greet
+good morning,greet
+good evening,greet
+
+play some music,play_music
+i want to hear songs,play_music
+start the music,play_music
+can you play a song,play_music
+play a song from spotify,play_music
+what's the weather,get_weather
+how's the weather today,get_weather
+tell me the weather forecast,get_weather
+will it rain today,get_weather
+tell me a joke,get_joke
+make me laugh,get_joke
+say something funny,get_joke
+show me the news,get_news
+what's in the news,get_news
+latest headlines,get_news
+read me the news,get_news
+set a reminder,set_reminder
+remind me to drink water,set_reminder
+remind me at 5 PM,set_reminder
+create a reminder for tomorrow,set_reminder
+what's the time,get_time
+tell me the time,get_time
+current time please,get_time
+who are you,get_identity
+what can you do,get_identity
+introduce yourself,get_identity
+open youtube,open_app
+launch google chrome,open_app
+open spotify,open_app
+shutdown the system,shutdown
+turn off the computer,shutdown
+exit the program,shutdown
+
+how were you born,Introduce
+i am very stress,stress
+from where do you get this name,Introduce
